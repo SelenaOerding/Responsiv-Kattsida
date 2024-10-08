@@ -1,0 +1,66 @@
+form {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill);
+  gap: 30px;
+  background-color: #f1f1f1;
+  padding-bottom: 100%;
+  padding-top: 5%;
+}
+
+.send {
+  grid-column: 1;
+}
+
+.terms {
+  grid-column: 1;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+input:hover {
+  background-color: rgba(1, 213, 237, 0.139);
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+input[type="radio"] {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+textarea {
+  height: 200px;
+}
+
+form h2 {
+  grid-column: span 2;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+}
+input[type="checkbox"] {
+  width: auto;
+}
+
+button:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.terms input:hover {
+  transform: scale(1.1, 1.1);
+}
